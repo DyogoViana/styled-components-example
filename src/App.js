@@ -1,7 +1,12 @@
+import React from "react";
+import Button from "./components/Button";
+import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <h1>Follow The White Rabbit</h1>
+    <Wrapper>
+      <Button>Enviar</Button>
+    </Wrapper>
   );
 }
 
